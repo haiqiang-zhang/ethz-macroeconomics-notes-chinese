@@ -1,0 +1,36 @@
+summaries:
+  Filled: values.filter(!value.isType("null")).length
+filters:
+  and:
+    - base.contains(link("Glossary.base"))
+    - file.folder == "Glossary"
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: Solved
+      direction: ASC
+    order:
+      - file.name
+      - Solved
+      - Short Desc.
+      - file.backlinks
+    sort: []
+    summaries:
+      file.name: Filled
+      file.backlinks: Empty
+    columnSize:
+      file.name: 276
+      note.Solved: 91
+      note.Short Desc.: 194
+  - type: table
+    name: View
+    order:
+      - file.name
+      - Solved
+    sort:
+      - property: Solved
+        direction: ASC
+    columnSize:
+      file.name: 276
+      note.Solved: 170

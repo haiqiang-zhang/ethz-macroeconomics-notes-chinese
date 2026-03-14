@@ -1,0 +1,40 @@
+summaries:
+  Checked: values.filter(value == true).length
+  Progress: (values.filter(value == true).length / values.length * 100).round(2) + "%"
+filters:
+  and:
+    - base.contains(link("ETH MacroEco Knowledge.base"))
+    - file.folder == "Knowledge"
+properties:
+  file.links:
+    displayName: Links
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: Types
+      direction: ASC
+    order:
+      - file.name
+      - Types
+      - Finished
+    sort:
+      - property: Types
+        direction: ASC
+    summaries:
+      file.name: Filled
+      Finished: Progress
+    columnSize:
+      file.name: 360
+      note.Types: 144
+      note.Finished: 192
+  - type: chart-bar
+    name: View
+    order:
+      - Finished
+    sort: []
+    x: note.Types
+    sync-y-axes: false
+    show-labels: true
+    show-percentages: false
+    multi-chart-mode: Separate by property

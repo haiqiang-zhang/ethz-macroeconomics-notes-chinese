@@ -1,0 +1,20 @@
+filters:
+  and:
+    - file.folder == "ANKI"
+    - file.ext == "md"
+formulas:
+  Synced: "!noteId.isEmpty()"
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - formula.Synced
+      - file.ctime
+      - file.links
+    sort:
+      - property: file.ctime
+        direction: DESC
+    columnSize:
+      file.name: 474
+      formula.Synced: 109
