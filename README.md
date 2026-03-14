@@ -2,7 +2,7 @@
 
 Course notes for **Principles of Macroeconomics** at ETH Zürich. English as the primary language, with key points emphasized in Chinese (中文重点标注).
 
-Written for exam review during my Computer Science master's — I'm not an economics major, so some explanations may be informal or simplified. Final grade: **5.75/6.0**, so these notes might actually be useful!
+I took this course as my **Science in Perspective** elective — it's very suitable for Science in Perspective. Written for exam review during my Computer Science master's — I'm not an economics major, so some explanations may be informal or simplified. Final grade: **5.75/6.0**, so these notes might actually be useful!
 
 ## Usage
 
