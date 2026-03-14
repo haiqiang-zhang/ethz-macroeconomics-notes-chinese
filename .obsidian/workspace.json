@@ -11,14 +11,13 @@
             "id": "083833071a3f0691",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Homepage.md",
-                "mode": "source",
-                "source": false
+                "file": "Glossary/Glossary.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Homepage"
+              "icon": "lucide-table",
+              "title": "Glossary"
             }
           }
         ]
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage.md",
+                "file": "Glossary/Glossary.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Homepage"
+              "title": "Backlinks for Glossary"
             }
           },
           {
@@ -113,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homepage.md",
+                "file": "Glossary/Glossary.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Homepage"
+              "title": "Outgoing links from Glossary"
             }
           },
           {
@@ -156,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homepage.md",
+                "file": "Glossary/Glossary.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Homepage"
+              "title": "Outline of Glossary"
             }
           }
         ],
@@ -184,15 +183,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "4aa2c7928e8668c9",
+  "active": "083833071a3f0691",
   "lastOpenFiles": [
+    "Homepage.md",
     "README.md",
     "Documents/Economics (Share N. Gregory Mankiw, Mark P. Taylor).pdf",
-    "Homepage.md",
     "Knowledge/Other Information.md",
     "Knowledge/2009 Mock Exam.md",
     "ETH MacroEco Knowledge.base",
-    "Homepage.md",
     "Glossary/Glossary.base",
     "ANKI/ANKI.base",
     "Knowledge/5 Saving, investment and the financial system.md",
