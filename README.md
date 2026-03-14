@@ -19,4 +19,4 @@ This is an [Obsidian](https://obsidian.md) vault. To use it:
 - **Glossary/** — Key economic terms and definitions
 - **ANKI/** — Flashcard-style Q&A for active recall
 - **Cengage MCQs/** — Official MCQ practice from the course textbook (PDF)
-- **Documents/** — All documents used during exam review
+- **Documents/** — PPT slides and textbook used during exam review (removed for copyright reasons; add your own)
